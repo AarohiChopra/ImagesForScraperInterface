@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Randomizer</title>
+    <link href="food.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body> 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<form class="example" action="action_page.php">
+  <input type="text" placeholder="Search Title, Actor, Actress, Director" name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+  <div id="mainbox" class="mainbox">
+    <div id="box" class="box">
+      <div class="box1">
+        <span class="span1"><b>French Fries</b></span>
+        <span class="span2"><b>Curly Fries</b></span>
+        <span class="span3"><b>Potato chips</b></span>
+        <span class="span4"><b>Fish and chips</b></span>
+      </div>
+      <div class="box2">
+        <span class="span1"><b>Nachos</b></span>
+        <span class="span2"><b>Breadsticks</b></span>
+        <span class="span3"><b>Pakora</b></span>
+        <span class="span4"><b>Banana Chips</b></span>
+      </div>
+    </div> 
+    <button class="spin" onclick="rotateFunction()">SPIN</button>
+  </div>
+  <div class="mySlides">
+ <button class="button"><img src="romance.png"width="40" 
+     height="30"><div class="text">Romance</div></button>
+       </div>
+     <div class="mySlides">
+     <button class="button2"><img src="horror.png"width="40" 
+     height="40"><div class="text">Horror</div></button>
+       </div>
+     <div class="mySlides">
+     <button class="button3"><img src="adventure.png"width="40" 
+     height="40"><div class="text">Adventure</div></button>
+       </div>
+     <div class="mySlides">
+     <button class="button4"><img src="drama.png"width="40" 
+     height="40"><div class="text">Drama</div></button>
+       </div>
+     <div class="mySlides">
+     <button class="button5"><img src="18+.png"width="40" 
+     height="40"><div class="text">18+</div></button>
+       </div>
+     <div class="mySlides">
+     <button class="button6"><img src="action.png"width="40" 
+     height="40"><div class="text">Action</div></button>
+       </div>
+     <div class="mySlides">
+     <button class="button7"><img src="animation.png"width="40" 
+     height="40"><div class="text">Animation</div></button>
+       </div>
+     <div class="mySlides">
+     <button class="button8"><img src="comedy.png"width="40" 
+     height="40"><div class="text">Comedy</div></button>
+       </div>
+     <div class="mySlides">
+     <button class="button9"><img src="detective.png"width="40" 
+     height="40"><div class="text">Detective</div></button>
+       </div>
+     <div class="mySlides">
+     <button class="button10"><img src="fantasy.png"width="40" 
+     height="40"><div class="text">Fantasy</div></button>
+       </div>
+     <div class="mySlides">
+     <button class="button11"><img src="history.png"width="40" 
+     height="40"><div class="text">History</div></button>
+       </div>
+     <div class="mySlides">
+     <button class="button12"><img src="musical.png"width="40" 
+     height="40"><div class="text">Musical</div></button>
+       </div>
+     <div class="mySlides">
+     <button class="button13"><img src="sci-fi.png"width="40" 
+     height="40"><div class="text">Sci-fi</div></button>
+       </div>
+     <div class="mySlides">
+     <button class="button14"><img src="sports.png"width="40" 
+     height="40"><div class="text">Sports</div></button>
+       </div>
+     <div class="mySlides">
+     <button class="button15"><img src="war.png"width="40" 
+     height="40"><div class="text">War</div></button>
+       </div>
+     <div class="mySlides">
+     <button class="button16"><img src="western.png"width="40" 
+     height="40"><div class="text">Western</div></button>
+       </div>
+     <button class= "prev" onclick="nextSlides(-1)"><img src="arrow-left.png"width="40" 
+     height="40"></button>
+     <button class= "next" onclick="nextSlides(1)"><img src="arrow-right.png"width="40" 
+     height="40"></button>
+         
+     <legend>Decades</legend>     
+     	<input type="checkbox" name = "checkmark" id = "1950-1959" check="checked" onclick="return ValidatePetSelection();">1950-1959<br>
+     	<input type="checkbox" name = "checkmark" id = "1960-1969" check="checked" onclick="return ValidatePetSelection();">1960-1969<br>
+     	<input type="checkbox" name = "checkmark" id = "1970-1979" check="checked" onclick="return ValidatePetSelection();">1970-1979<br>
+     	<input type="checkbox" name = "checkmark" id = "1980-1989" check="checked" onclick="return ValidatePetSelection();">1980-1989<br>
+     	<input type="checkbox" name = "checkmark" id = "1990-1999" check="checked" onclick="return ValidatePetSelection();">1990-1999<br>
+     	<input type="checkbox" name = "checkmark" id = "2000-2009"check="checked" onclick="return ValidatePetSelection();">2000-2009<br>
+     	<input type="checkbox" name = "checkmark" id = "2010-2019" check="checked" onclick="return ValidatePetSelection();"> 2010-2019<br>
+     	<input type="checkbox" name = "checkmark" id = "2020-" check="checked" onclick="return ValidatePetSelection();">2020-<br>
+     	<br>
+      
+  <script src="food.js"></script>
+  </body>
+</html>
